@@ -1,0 +1,42 @@
+
+.card_container{
+    width: 480px;
+    height: max-content;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    word-break: normal;
+    margin-bottom: 16px;
+}
+
+.card_container:hover{
+    transition: ease-in-out 300ms;
+    border-color: slategrey;
+    box-shadow:  7px 11px 14px -5px rgba(0,0,0,0.23);
+}
+
+.articleImage{
+    cursor: pointer;
+}
+
+.card_heading{
+    float: left;
+    margin-left: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+.card_heading:hover{
+    text-decoration: underline;
+    color: #4E4E4E;
+}
+
+.date{
+    margin-top: 24px;
+    margin-left: 8px;
+    padding-bottom: 16px;
+}
